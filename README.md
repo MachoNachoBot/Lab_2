@@ -1,6 +1,26 @@
+# Lab 2
 Write an assembly language program that prompts the user for two input strings and
 computes the Hamming distance between the two strings. The Hamming distance is the
 number of bit positions where the two strings differ. For example, the ASCII representations
 of the strings “foo” and “bar” in binary are:
 “foo” = 0110 0110 0110 1111 0110 1111
 “bar” = 0110 0010 0110 0001 0111 0010
+
+gcc -nostdlib -no-pie hamming_distance.s -o hamming_distance
+./hamming_distance
+
+./hamming_distance
+foo
+bar
+
+./hamming_distance
+this is a test
+of the emergency broadcast
+
+./hamming_distance
+dog
+cat
+
+./hamming_distance
+batman
+superman
