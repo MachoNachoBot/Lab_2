@@ -6,9 +6,10 @@ of the strings “foo” and “bar” in binary are:
 “foo” = 0110 0110 0110 1111 0110 1111
 “bar” = 0110 0010 0110 0001 0111 0010
 
+# Compile
 gcc -nostdlib -no-pie hamming_distance.s -o hamming_distance
-./hamming_distance
 
+# Run
 ./hamming_distance
 foo
 bar
