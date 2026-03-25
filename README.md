@@ -11,17 +11,15 @@ gcc -nostdlib -no-pie hamming_distance.s -o hamming_distance
 
 # Run
 ./hamming_distance
+
 foo
 bar
 
-./hamming_distance
 this is a test
 of the emergency broadcast
 
-./hamming_distance
 dog
 cat
 
-./hamming_distance
 batman
 superman
